@@ -62,6 +62,8 @@ We believe in the power of open collaboration! Here's how you can contribute:
 
 Whether you’re a project maintainer, developer, or JSON Logic enthusiast, we’d love to have you onboard!
 
+We'd also love to have volunteers willing to adopt abandoned implementations.
+
 ## Special Acknowledgements ⭐
 
 - [Jeremy Wadhams](https://github.com/jwadhams) for inventing JSON Logic

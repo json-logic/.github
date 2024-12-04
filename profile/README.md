@@ -33,6 +33,8 @@ Here are some examples of challenges we’re working on:
 - Handling iterator contexts (e.g., accessing parent context in filter operations).
 - Defining behaviors for .length and similar properties in var operations.
 - Aligning on reserved operators and backwards-compatible extensions.
+- How to embed data in logic, and what is interpreted as data vs logic.
+- There also just tend to be quirks between different implementations (auto-flattening of arrays, single-argument parameters)
 
 ## How You Can Help ❤️
 

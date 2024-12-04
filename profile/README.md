@@ -4,7 +4,14 @@ Welcome to the *JSON Logic Community*! Our mission is to foster collaboration am
 
 
 ## Why This Organization Exists 🌍
-JSON Logic has become a popular standard for expressing conditional logic in a JSON-friendly format. However, over time, inconsistencies and ambiguities have emerged between different implementations, making it challenging for developers to rely on JSON Logic across platforms.
+
+Many productivity applications require a way to serialize and define filters and sandbox application capabilities, and [many folks end up rolling their own implementations](https://twitter.com/thdxr/status/1796338513165611080). 
+
+JSON Logic has become a reasonably well-used standard for expressing conditional logic in a portable & embeddable format. 
+
+With time, inconsistencies and ambiguities have emerged between different implementations, making it challenging for developers to rely on JSON Logic across platforms. 
+
+Developing a standard specification and robust test suite will ideally make JSON Logic easier to adopt; and empower developers further.
 
 ## Our Goals 🚀
 

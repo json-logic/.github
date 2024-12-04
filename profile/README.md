@@ -17,7 +17,7 @@ Developing a standard specification and robust test suite will ideally make JSON
 
 1. **Develop a Rigorous Specification**
 - Address ambiguities and inconsistencies in the current spec.
-- Define behaviors for edge cases (e.g., truthiness, accessing nested data).
+- Define behaviors for edge cases (e.g., truthiness, accessing empty keys and keys with separators in them).
 
 2. **Build Compatibility Resources**
 - Create and maintain a compatibility table for implementations.

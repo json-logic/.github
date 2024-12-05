@@ -13,6 +13,10 @@ A test case should be a JSON object with the following fields:
 
 The test cases are stored as an array of these objects, allowing for multiple tests in a single file.
 
+
+
+
+
 ## Example Test Cases
 
 Below are examples demonstrating how to format JSON Logic test cases:
@@ -77,6 +81,38 @@ Below are examples demonstrating how to format JSON Logic test cases:
   {
     "description": "Defaults to empty data object",
     "rule": { "==": [1, 1] },
+    "result": true
+  }
+]
+```
+
+
+## Commentary and Section Headers
+
+Strings in the root array will be ignored by the JSON Logic test processor. This allows you to add commentary or section headers to organize and describe groups of tests. For example:
+
+```json
+[
+  "Basic Arithmetic Tests",
+  {
+    "description": "Adds two numbers together",
+    "rule": { "+": [1, 2] },
+    "data": {},
+    "result": 3
+  },
+  "Advanced Logic Tests",
+  {
+    "description": "Combines AND and OR logic",
+    "rule": {
+      "and": [
+        { ">": [{ "var": "x" }, 10] },
+        { "or": [
+          { "==": [{ "var": "y" }, 5] },
+          { "==": [{ "var": "z" }, 7] }
+        ] }
+      ]
+    },
+    "data": { "x": 15, "y": 5, "z": 3 },
     "result": true
   }
 ]

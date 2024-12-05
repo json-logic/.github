@@ -38,7 +38,7 @@ Here are some examples of challenges we’re working on:
 - Accessing keys like `{ '': 1 }` or `{ 'hello.world': 1 }`.
 - Truthiness quirks, such as `{ "!": [0] }` vs `{ "!": 0 }`; and `{ "!": { "var": "data" } }`, where `data` is an array.
 - Handling iterator contexts (e.g., accessing parent context in filter operations).
-- Defining behaviors for .length and similar properties in var operations.
+- Defining behaviors for .length and similar properties in var operations. (a `length` operator is likely preferable)
 - Aligning on reserved operators and backwards-compatible extensions.
 - How to embed data in logic, and what is interpreted as data vs logic.
 - There also just tend to be quirks between different implementations (auto-flattening of arrays, single-argument parameters)

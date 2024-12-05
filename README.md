@@ -13,7 +13,7 @@ JSON Logic provides a lightweight, flexible way to build and evaluate logic in J
 - **Community Contributions**: Your feedback and contributions are invaluable. ❤️
 
 ## 📜 License
-This project is licensed under the [Apache 2.0 License](LICENSE). You’re free to use, modify, and distribute the software with proper attribution.
+This project is licensed under the [Apache 2.0 License](LICENSE). You’re free to use, modify, and distribute the software & specifications with proper attribution.
 
 ## 🌐 Code of Conduct
 We adhere to the [CNCF Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for everyone.

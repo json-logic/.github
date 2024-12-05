@@ -69,3 +69,5 @@ We'd also love to have volunteers willing to adopt abandoned implementations.
 - [Jeremy Wadhams](https://github.com/jwadhams) for inventing JSON Logic
 - [The OpenFeature Team](https://github.com/open-feature) as one of the biggest public users of cross-library JSON Logic, and for their willingness to back this initiative
 - [Adam Parry](https://thenounproject.com/creator/adamparry/) for the Vulcan Salute used in the JSON Logic logo
+
+And special thanks to [Jesse Mitchell](https://github.com/TotalTechGeek) whose leadership and dedication were instrumental in unifying the JSONLogic community, bringing together contributors/maintainers from across different implementations to collaboratively shape the future of the JSONLogic specification.

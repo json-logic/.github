@@ -1,4 +1,5 @@
 [
+    "These are the base tests from https://jsonlogic.com/tests.json exported on 2024-12-05. All implementations should be compatible with this baseline.",
     "# Non-rules get passed through",
     {"description": "true", "rule": true, "result": true},
     {"description": "false", "rule": false, "result": false},

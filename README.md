@@ -25,9 +25,6 @@ We love contributions! Whether it’s fixing a bug, improving documentation, or 
 
 While most spec-related discussions should occur in this GitHub Organization, we have a dedicated Slack Channel in the CNCF Slack.
 
-To join, [navigate here to request an invite](https://communityinviter.com/apps/cloud-native/cncf) and join the [`#json-logic` channel](#json-logicchannel)
-
-Have questions or need help? Feel free to open an issue or reach out to the maintainers.
+To join, [navigate here to request an invite](https://communityinviter.com/apps/cloud-native/cncf) and join the [`#json-logic` channel](#json-logicchannel). 
 
 Thanks for stopping by, and happy coding! 💻✨
-

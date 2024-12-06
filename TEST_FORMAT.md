@@ -8,14 +8,14 @@ A test case should be a JSON object with the following fields:
 
 - **`description`** *(string, required)*: A short, human-readable description of the test case that explains its purpose.
 - **`rule`** *(any, required)*: The JSON Logic rule to be tested.
-- **`data`** *(object, optional)*: The input data that the rule will evaluate against. Defaults to an empty object if not provided.
+- **`data`** *(any, required)*: The input data that the rule will evaluate against. 
 - **`result`** *(any, required)*: The expected result after evaluating the rule with the provided data.
 
+`any` refers to any valid [RFC8259](https://datatracker.ietf.org/doc/html/rfc8259) value.
+
+`string` refers to [strings in RFC8259](https://datatracker.ietf.org/doc/html/rfc8259#section-7).
+
 The test cases are stored as an array of these objects, allowing for multiple tests in a single file.
-
-
-
-
 
 ## Example Test Cases
 
@@ -73,19 +73,6 @@ Below are examples demonstrating how to format JSON Logic test cases:
   }
 ]
 ```
-
-### Default Data Usage
-
-```json
-[
-  {
-    "description": "Defaults to empty data object",
-    "rule": { "==": [1, 1] },
-    "result": true
-  }
-]
-```
-
 
 ## Commentary and Section Headers
 

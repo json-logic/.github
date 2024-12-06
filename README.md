@@ -21,13 +21,12 @@ We adhere to the [CNCF Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcomin
 ## 🤝 Contributing
 We love contributions! Whether it’s fixing a bug, improving documentation, or adding features, check out our [CONTRIBUTING.md](CONTRIBUTING.md) guide to get started.
 
-## 💬 Chat / Instant Messaging 
+## 💬 Contact & Instant Chat
 
 While most spec-related discussions should occur in this GitHub Organization, we have a dedicated Slack Channel in the CNCF Slack.
 
 To join, [navigate here to request an invite](https://communityinviter.com/apps/cloud-native/cncf) and join the [`#json-logic` channel](#json-logicchannel)
 
-## 📧 Contact
 Have questions or need help? Feel free to open an issue or reach out to the maintainers.
 
 Thanks for stopping by, and happy coding! 💻✨

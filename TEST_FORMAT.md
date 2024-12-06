@@ -76,7 +76,9 @@ Below are examples demonstrating how to format JSON Logic test cases:
 
 ## Commentary and Section Headers
 
-Strings in the root array will be ignored by the JSON Logic test processor. This allows you to add commentary or section headers to organize and describe groups of tests. For example:
+Strings in the root array will be ignored by the JSON Logic test processor. This allows you to add comments or declare section headers to provide human-readable information in your test-suite. 
+
+For example:
 
 ```json
 [

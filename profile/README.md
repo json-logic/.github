@@ -27,7 +27,11 @@ Developing a standard specification and robust test suite will ideally make JSON
 - Offer resources and community support to help resolve implementation differences.
 - Facilitate collaboration between maintainers to align on common goals.
 
-4. **Encourage Extensibility**
+4. **Improve AST Use Cases**
+- JSON Logic is a surprisingly solid & minimal AST; we should enable that!
+- By exploring it as an AST, it could become a solid back-end for future specifications or embedded grammars.
+
+5. **Encourage Extensibility**
 - Identify and spec out common extensions.
 - Release shared libraries or guidelines for extending JSON Logic.
 

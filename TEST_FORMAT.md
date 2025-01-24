@@ -9,11 +9,20 @@ A test case should be a JSON object with the following fields:
 - **`description`** *(string, required)*: A short, human-readable description of the test case that explains its purpose.
 - **`rule`** *(any, required)*: The JSON Logic rule to be tested.
 - **`data`** *(any, required)*: The input data that the rule will evaluate against. 
+
+And either:
+
 - **`result`** *(any, required)*: The expected result after evaluating the rule with the provided data.
+
+OR
+
+- **`error`** *(Partial\<Error\>, required)* - Communicates that it is expected that the logic will fail due to a hard error. This object must partial match against the error emitted.
 
 `any` refers to any valid [RFC8259](https://datatracker.ietf.org/doc/html/rfc8259) value.
 
 `string` refers to [strings in RFC8259](https://datatracker.ietf.org/doc/html/rfc8259#section-7).
+
+`Error`, at this time, is defined as a JSON Object with a `type` property, defined as a string (e.g. `{ "type": "NaN" }`).
 
 The test cases are stored as an array of these objects, allowing for multiple tests in a single file.
 
@@ -70,6 +79,25 @@ Below are examples demonstrating how to format JSON Logic test cases:
     },
     "data": { "x": 15, "y": 5, "z": 3 },
     "result": true
+  }
+]
+```
+
+### Error Logic Test
+
+```json
+[
+  {
+    "description": "Checks if division by zero fails",
+    "rule": { "/": [0, 0] },
+    "error": { "type": "NaN" },
+    "data": null
+  },
+  {
+    "description": "Checks if throw can be embedded in another operator",
+    "rule": { "+": [1, { "throw": "Some error" }] },
+    "error": { "type": "Some error" },
+    "data": null
   }
 ]
 ```

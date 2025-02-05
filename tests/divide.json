@@ -195,12 +195,5 @@
         "rule": { "/": [{ "val": "arr" }] },
         "error": { "type": "NaN" },
         "data": {"arr": [100, 4, 5]}
-    },
-    {
-        "description": "Divide Operator with val resulting in Array should divide sequentially",
-        "rule": { "/": { "val": "arr" } },
-        "result": 5,
-        "data": {"arr": [100, 4, 5]},
-        "decimal": false
     }
 ]

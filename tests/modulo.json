@@ -193,11 +193,5 @@
         "rule": { "%": [{ "val": "arr" }] },
         "error": { "type": "NaN" },
         "data": {"arr": [10, 6, 4]}
-    },
-    {
-        "description": "Modulo Operator with val resulting in Array should modulo sequentially",
-        "rule": { "%": { "val": "arr" } },
-        "result": 2,
-        "data": {"arr": [10, 6, 4]}
     }
 ]

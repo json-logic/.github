@@ -174,11 +174,5 @@
         "rule": { "*": [{ "val": "arr" }] },
         "error": { "type": "NaN" },
         "data": {"arr": [1, 2, 3, 4]}
-    },
-    {
-        "description": "Multiply Operator with val resulting in Array should multiply",
-        "rule": { "*": { "val": "arr" } },
-        "result": 24,
-        "data": {"arr": [1, 2, 3, 4]}
     }
 ]

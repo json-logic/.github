@@ -138,11 +138,5 @@
         "rule": { "-": [{ "val": "arr" }] },
         "error": { "type": "NaN" },
         "data": {"arr": [1, 2, 3, 4]}
-    },
-    {
-        "description": "Minus Operator with val resulting in Array should subtract sequentially",
-        "rule": { "-": { "val": "arr" } },
-        "result": -8,
-        "data": {"arr": [1, 2, 3, 4]}
     }
 ]

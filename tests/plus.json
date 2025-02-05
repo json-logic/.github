@@ -194,5 +194,17 @@
         "rule": { "+": {} },
         "error": { "type": "NaN" },
         "data": null
+    },
+    {
+        "description": "Plus Operator with val resulting in Array of array should error",
+        "rule": { "+": [{ "val": "arr" }] },
+        "error": { "type": "NaN" },
+        "data": {"arr": [1, 2, 3, 4]}
+    },
+    {
+        "description": "Plus Operator with val resulting in Array should sum",
+        "rule": { "+": { "val": "arr" } },
+        "result": 10,
+        "data": {"arr": [1, 2, 3, 4]}
     }
 ]

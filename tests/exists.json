@@ -47,5 +47,17 @@
         "rule": { "exists": "hello" },
         "data": { "hello" : null },
         "result": true
+    },
+    {
+        "description": "Check deeply nested path",
+        "rule": { "exists": ["a", "b", "c", "d"] },
+        "data": { "a": { "b": { "c": { "d": 1 } } } },
+        "result": true
+    },
+    {
+        "description": "Check deeply nested path (false)",
+        "rule": { "exists": ["a", "b", "c", "d"] },
+        "data": { "a": { "b": { "c": { "x": 1 } } } },
+        "result": false
     }
 ]
